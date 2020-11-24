@@ -1,5 +1,5 @@
 import { watchEffect, ref, Ref, reactive } from '@vue/runtime-core';
-import { render, createTomElement } from '@vuminal/tom';
+import { render, createTomElement } from './../../tom';
 import logUpdate from 'log-update';
 
 const isDrawing: Ref<boolean> = ref(false);
@@ -16,7 +16,7 @@ export const startDrawing = () => {
 };
 
 export const stopDrawing = () => {
-  stopWatching.value();
+  stopWatching.value(); // stop watching
   isDrawing.value = false;
 };
 
