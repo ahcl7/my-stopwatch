@@ -2,8 +2,8 @@
   "name": "blessed-example",
   "version": "1.0.0",
   "scripts": {
-    "serve": "nodemon index.js",
-    "test": "nodemon index.js"
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "@vuminal/connector-blessed": "0.0.3",
