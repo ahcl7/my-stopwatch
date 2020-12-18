@@ -5,6 +5,7 @@
     "preversion": "lerna run build",
     "build": "lerna run build",
     "build:rollup:watch": "lerna run --parallel build:rollup:watch",
+    "run-tetris:": "lerna run build && node packages/blessed-example/index.js",
     "test": "lerna run test",
     "test:watch": "lerna run --parallel test:watch",
     "start": "node packages/my-stopwatch/index.js"

@@ -1,10 +1,9 @@
-const keydownup = require('./keyUpdown')
+const keydownup = require('./keydownup')
 
 const keyPressListener = (stream, onPressLeft, onPressRight, onPressUp, onPressSpace, onKeyDownDown, onKeyDownUp, onReset, onExit) => {
   keydownup(stream)
   if (typeof stream.setRawMode === 'function') stream.setRawMode(true)
   stream.on('keydown', (ch, key) => {
-    // console.log(key)
     if (key.name === 'space') {
       onPressSpace()
     }

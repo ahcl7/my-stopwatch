@@ -6,7 +6,7 @@ const draw = Vulminal(connector)
 const Board = require('./components/Board')
 const GameScreen = require('./components/GameScreen')
 const Game = require('./model/game')
-const { keyPressListener } = require('./components/utils/keyListener')
+const { keyPressListener } = require('./utils/keyListener')
 const root = {
   components: { 'board': Board },
   setup(props, context) {

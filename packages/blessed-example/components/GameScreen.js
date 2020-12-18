@@ -10,10 +10,6 @@ module.exports = GameScreen = {
     return () => h('box', {
         top: 'center',
         left: 'center',
-        width: "100",
-        style: {
-          bg: 'red'
-        }
       },
       [
         h(Board, {
