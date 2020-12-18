@@ -97,7 +97,8 @@ export const nodeOps: RendererOptions<Widgets.Node, Widgets.BlessedElement> = {
       const name = key.slice(2).toLowerCase();
       if (prevValue) el.removeListener(name, prevValue);
       el.addListener(name, value);
-    } else {
+    }
+    else {
       setProps(el, key, value);
     }
     isDirty.value = true;

@@ -1,0 +1,14 @@
+{
+  "name": "blessed-example",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "@vuminal/connector-blessed": "0.0.3",
+    "keypress": "^0.2.1",
+    "vue-template-compiler": "^2.6.12",
+    "vuminal": "0.0.5"
+  }
+}

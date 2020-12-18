@@ -22,6 +22,6 @@
   "homepage": "https://github.com/ycmjason/vuminal/tree/master/packages/vuminal",
   "license": "ISC",
   "dependencies": {
-    "@vue/runtime-core": "^3.0.0"
+    "@vue/runtime-core": "^3.0.4"
   }
 }

@@ -2,7 +2,8 @@
   "name": "my-stopwatch",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "serve": "node index.js"
   },
   "dependencies": {
     "keypress": "^0.2.1"
